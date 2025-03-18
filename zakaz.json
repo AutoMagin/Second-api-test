@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "table_number": 14,
+        "items": {
+            "first_meal": "Карбонара",
+            "second_meal": "Салат греческий",
+            "drink": "Сок"
+        },
+        "total_price": 3200,
+        "status": ""
+    },
+    {
+        "id": 2,
+        "table_number": 3,
+        "items": {
+            "first_meal": "Пицца Маргарита",
+            "second_meal": "Салат Цезарь",
+            "drink": "Минеральная вода"
+        },
+        "total_price": 4500,
+        "status": "Готовиться"
+    },
+    {
+        "id": 3,
+        "table_number": 8,
+        "items": {
+            "first_meal": "Суп-лук",
+            "second_meal": "Стейк с гарниром",
+            "drink": "Кола"
+        },
+        "total_price": 5200,
+        "status": "В ожидании"
+    },
+    {
+        "id": 4,
+        "table_number": 21,
+        "items": {
+            "first_meal": "Ризотто с грибами",
+            "second_meal": "Салат с тунцом",
+            "drink": "Чай зелёный"
+        },
+        "total_price": 4100,
+        "status": ""
+    },
+    {
+        "id": 5,
+        "table_number": 7,
+        "items": {
+            "first_meal": "Борщ",
+            "second_meal": "Картофель фри",
+            "drink": "Лимонад"
+        },
+        "total_price": 3800,
+        "status": "Подан"
+    }
+]
