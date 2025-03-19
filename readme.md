@@ -24,7 +24,7 @@ def delete_order(id : int):
                 raise HTTPException(status_code = 403, detail = "Заказа с статусом 'Поадн' не может быть удалён")
     raise HTTPException(status_code = 401, detail = "Заказ не найден")
 ```
-Так вот тут типо чё то не красиво так что чат гпт предложил сделать круче вот его варик:
+И вот можно усовершенствовать удаление и сделать его более лучше:
 ```python
 @app.delete("/order/order_delete/{id}")
 def delete_order(id: int):
@@ -47,8 +47,6 @@ def delete_order(id: int):
     write_json(orders)
     return {"message": "Заказ успешно удалён", "order": order_to_delete}
 ```
-Он круче, но там моё, а тут не моё
-
 Кста чо узнал структура бд крутая у меня ну типо там крутой список в списке
 
 ```json
