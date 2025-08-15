@@ -45,6 +45,7 @@ Pydantic — валидация и типизация данных
 Uvicorn — ASGI-сервер для запуска приложения
 
 # 📜 Пример эндпоинта удаления заказа
+```python
 @app.delete("/order/order_delete/{id}")
 def delete_order(id: int):
     orders = read_json()
@@ -59,6 +60,7 @@ def delete_order(id: int):
     orders.remove(order_to_delete)
     write_json(orders)
     return {"message": "Заказ успешно удалён", "order": order_to_delete}
+```
 
 # ▶ Запуск проекта
 
